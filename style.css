@@ -95,7 +95,9 @@ body {
   fill: #ee4266;
   margin-bottom: 5px;
 
-  @media (max-width: 600px) {
+}
+@media (max-width: 600px) {
+  #home div.main .social ul li svg {
     height: 45px;
     width: 45px;
   }
@@ -124,8 +126,8 @@ body {
 @keyframes hue {
   0% {
    -webkit-filter: hue-rotate(0deg);
-  }
-  100% {
+ }
+ 100% {
    -webkit-filter: hue-rotate(360deg);
-  }
+ }
 }
